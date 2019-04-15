@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cases"
+            android:icon="@drawable/icons_briefcase"
+            android:title="Cases" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/icons_customer"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/icons_about"
+            android:title="Know Your Right" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/icons_send"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/icon_out"
+            android:title="Sign Out" />
+    </group>
+
+
+</menu>
